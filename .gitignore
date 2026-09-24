@@ -1,0 +1,37 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Notebook checkpoints; retain the executed notebook itself
+.ipynb_checkpoints/
+
+# Local credentials and machine configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary outputs and fitted model binaries
+*.log
+*.tmp
+*.pkl
+*.joblib
+catboost_info/
+failed_run.ipynb
+local_downloads/
+*.zip
+
+# Curated data, charts, metrics and notebook outputs are intentionally tracked.
+# Verify data redistribution rights before publishing data/ or price-containing outputs.

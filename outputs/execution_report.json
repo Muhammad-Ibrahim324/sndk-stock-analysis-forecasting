@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "execution_method": "All notebook code cells executed sequentially in a fresh in-process IPython session (kernel sockets unavailable in build environment)",
+  "error_outputs": 0,
+  "code_cells_executed": 14,
+  "runtime_seconds": 15.0,
+  "output_mime_counts": {
+    "text/plain": 25,
+    "text/html": 30,
+    "application/vnd.plotly.v1+json": 9,
+    "image/png": 4,
+    "text/markdown": 1
+  }
+}

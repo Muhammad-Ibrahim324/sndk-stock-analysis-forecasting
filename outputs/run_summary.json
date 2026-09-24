@@ -1,0 +1,47 @@
+{
+  "author": "Muhammad Ibrahim Shahrukh",
+  "snapshot_end": "2026-09-22",
+  "history_rows": 403,
+  "model_rows": 397,
+  "forecast_sessions": 70,
+  "selected_model": "CatBoost",
+  "selection_metric": "mean validation RMSE / origin close * 100",
+  "test_metrics": {
+    "MAE_USD": 928.6476695986403,
+    "RMSE_USD": 1032.9826170484178,
+    "NRMSE_origin_pct": 54.901786952336955,
+    "MAPE_pct": 62.42984348331974,
+    "sMAPE_pct": 44.62528650038573,
+    "MASE": 51.6487440581463,
+    "R2": -12.07213989494155,
+    "RMSE_skill_vs_random_walk": -1.755301936973591,
+    "origin_direction_accuracy_pct": 21.428571428571427
+  },
+  "test_envelope_80_coverage_pct": 51.42857142857142,
+  "test_envelope_95_coverage_pct": 85.71428571428571,
+  "forecast_end": {
+    "date": "2026-12-31",
+    "ticker": "SNDK",
+    "forecast_origin": "2026-09-22",
+    "horizon_sessions": 70,
+    "selected_model": "CatBoost",
+    "forecast_close": 3518.9515461387805,
+    "sim_lower_80": 1601.9928244890343,
+    "sim_upper_80": 7408.870916634737,
+    "sim_lower_95": 1097.675358076455,
+    "sim_upper_95": 10703.800807677302,
+    "random_walk_close": 1887.0400390625
+  },
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.8.0",
+    "plotly": "7.1.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "statsmodels": "0.15.0",
+    "xgboost": "3.4.1",
+    "catboost": "1.2.10"
+  },
+  "clean_csv_sha256": "02d6aa0294f7d0dac42b663f1262a8f9e2eefe899bc158d7449e1a6a8bc76b6d"
+}
